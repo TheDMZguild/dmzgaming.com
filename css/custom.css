@@ -1,0 +1,149 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+hr {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+.site_title {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    color: #000000;
+    margin: 0 30px 0 22px;
+    text-decoration: none;
+}
+
+.site_title_icon {
+    margin-right: 10px;
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+
+.logo {
+    height: 150px;
+    border: 5px solid #fff;
+    margin: -95px 0 5px 30px;
+}
+
+.banner {
+    width: 100%;
+    /* border-radius: 0px 0px 15px 15px; */
+    /* border-bottom: 1px solid #bdbdbd; */
+}
+
+.banner_container {
+    font-size: 18px;
+    font-weight: 600;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    background-color: #252525;
+    color: #ffffff;
+}
+
+.outside_borders {
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
+
+.fa-house {
+    color: #000000;
+}
+
+.fa-address-card {
+    color: #000000;
+}
+
+.fa-discord {
+    color: #5E67ED;
+}
+
+.fa-youtube {
+    color: #f50000;
+}
+
+.fa-x-twitter {
+    color: #000000;
+}
+
+.fa-square-github {
+    color: #1f883d;
+}
+
+.fa-clipboard-user {
+    color: #3a7ca6;
+}
+
+.header_links {
+    text-align: center;
+}
+
+.header_icons {
+    font-size: 24px;
+    padding-top: 8px;
+}
+
+.header_images {
+    height: 35px;
+    padding-top: 6px;
+}
+
+.nav-link {
+    margin: 0 5px 0 5px;
+    width: 100px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
+
+.sub_titles {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.sub_titles_icons {
+    color: #2c79d1;
+    margin-right: 15px;
+}
+
+.discord-widget {
+    text-align: left;
+}
+
+.btn-apply {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer_copyright{
+    color: #2e2e2e;
+}
+
+.footer_social {
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.footer_padding {
+    padding: 0 50px 0 50px;
+}
