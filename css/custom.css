@@ -12,12 +12,20 @@ hr.marg_bot {
     margin-bottom: 40px !important;
 }
 
+.vr_banner {
+    margin: 15px 20px 15px 20px;
+}
+
+.vr_header {
+    margin: 15px 10px 15px 10px;
+}
+
+
 .site_title {
     font-family: "Alfa Slab One", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 34px;
-    color: #000000;
     margin: 0 30px 0 22px;
     text-decoration: none;
 }
@@ -30,29 +38,8 @@ hr.marg_bot {
 
 .logo {
     height: 150px;
-    border: 5px solid #fff;
+    border: 5px solid #ffffff;
     margin: -95px 0 5px 30px;
-}
-
-.banner {
-    width: 100%;
-    /* border-radius: 0px 0px 15px 15px; */
-    /* border-bottom: 1px solid #bdbdbd; */
-}
-
-.banner_container {
-    font-size: 18px;
-    font-weight: 600;
-    border-left: 1px solid #dee2e6;
-    border-right: 1px solid #dee2e6;
-    border-bottom: 1px solid #dee2e6;
-    background-color: #2d647d;
-    color: #ffffff;
-}
-
-.outside_borders {
-    border-left: 1px solid #dee2e6;
-    border-right: 1px solid #dee2e6;
 }
 
 .fa-house {
@@ -63,8 +50,16 @@ hr.marg_bot {
     color: #000000;
 }
 
+.fa-envelope-open-text {
+    color: #000000;
+}
+
 .fa-discord {
     color: #5E67ED;
+}
+
+.fa-circle-exclamation {
+    color:#db0000 !important;
 }
 
 .fa-youtube {
@@ -87,48 +82,64 @@ hr.marg_bot {
     color: #3a7ca6;
 }
 
-.header_links {
-    text-align: center;
-}
-
 .header_icons {
     font-size: 24px;
     padding-top: 8px;
 }
 
-.header_images {
-    height: 35px;
-    padding-top: 6px;
-}
-
-.nav-link {
+.header_links {
     margin: 0;
-    width: 100px;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
+    width: 120px;
     text-align: center;
-    color: #000000;
     font-weight: 600;
     font-size: 14px;
 }
 
-.nav-link:hover {
-    color: #000000;
-    background-color: #ffffff;
-    border-left: 1px solid #dee2e6;
-    border-right: 1px solid #dee2e6;
+.header_links:hover {
+    backdrop-filter: brightness(110%);
+}
+
+.banner {
+    width: 100%;
+    border-bottom: 1px solid #6aa9b3;
+}
+
+.banner_container {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #5085a5;
+}
+
+.banner_nav {
+    margin-left: 120px;
+    min-height: 100%;
+}
+
+.banner_images {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.banner_links {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 14px 15px 14px 15px;
+}
+
+.banner_links:hover {
+    backdrop-filter: brightness(110%);
 }
 
 .sub_titles {
     font-family: "Alfa Slab One", serif;
-    color: #424242;
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
 }
 
 .sub_titles_icons {
-    color: #2c79d1;
+    color: #007eb7;
     margin-right: 15px;
 }
 
@@ -136,13 +147,18 @@ hr.marg_bot {
     text-align: left;
 }
 
+ol > li.apply::marker {
+    font-weight: bold;
+  }
+
 .btn-apply {
-    margin-top: 10px;
     font-weight: 600;
+    margin-top: 12px;
 }
 
-.leader_links {
-    font-size: 18px;
+.button_label {
+    padding-left: 10px;
+    vertical-align: middle;
 }
 
 .raider_rules {
@@ -151,10 +167,6 @@ hr.marg_bot {
 
 .footer {
     width: 100%;
-}
-
-.footer_copyright{
-    color: #2e2e2e;
 }
 
 .footer_social {
